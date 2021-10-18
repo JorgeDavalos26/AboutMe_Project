@@ -4,12 +4,13 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 const app = express();
 
+/*
 mongoose.connect("",
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
-}).then(db => console.log("DB is connected")).catch(err => console.error(err));
+}).then(db => console.log("DB is connected")).catch(err => console.error(err));*/
 
 
 // Settings
@@ -28,7 +29,18 @@ app.use(cors());
 
 
 
+// Static files
 
+app.use(express.static(__dirname + "/public"));
+
+if (process.env.NODE_ENV === 'production') 
+{
+    // Static folder
+    app.use(express.static(__dirname + '/public/'));
+  
+    // Handle SPA
+    app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
+}
 
 
 // Server Listening

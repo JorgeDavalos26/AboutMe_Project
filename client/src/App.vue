@@ -1,25 +1,42 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <MainInterface />
+    <Portrait />
+    <Content />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainInterface from "./components/MainInterface.vue"
+import Portrait from "./components/Portrait.vue"
+import Content from "./components/Content.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainInterface,
+    Portrait,
+    Content
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+body
+{
+  margin-top: 56px;
+  height: 2000px;
+  font-family: 'Roboto', sans-serif;
+  background: #a8bdca
 }
+
+pre
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
 </style>
