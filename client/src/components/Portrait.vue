@@ -1,14 +1,10 @@
 <template>
         <div class="portrait">
-
             <div class="circular-portrait">
                 <img src="../images/Perfil3.jpg" alt="">
             </div>
-
             <br>
-
             <h2>Tgo. Jorge Alberto Davalos Sigala</h2>
-
         </div>
 </template>
 
@@ -49,11 +45,6 @@ export default
 h2
 {
     font-family: 'Noto Sans Display', sans-serif;
-}
-
-*
-{
-    /*border: 1px solid black;*/
 }
 
 </style>

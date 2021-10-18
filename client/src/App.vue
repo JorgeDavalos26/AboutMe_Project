@@ -1,22 +1,27 @@
 <template>
   <div>
-    <MainInterface />
+    <Navbar />
     <Portrait />
     <Content />
+    <Footer />
   </div>
 </template>
 
 <script>
-import MainInterface from "./components/MainInterface.vue"
+import Navbar from "./components/Navbar.vue"
 import Portrait from "./components/Portrait.vue"
 import Content from "./components/Content.vue"
+import Footer from "./components/Footer.vue"
 
-export default {
+export default 
+{
   name: 'App',
-  components: {
-    MainInterface,
+  components: 
+  {
+    Navbar,
     Portrait,
-    Content
+    Content,
+    Footer
   }
 }
 </script>
