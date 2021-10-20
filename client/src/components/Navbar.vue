@@ -32,6 +32,11 @@
                                 Projects
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a style="color:#71a6b1; margin-left:10px;" class="nav-link" target="_blank" href="https://github.com/JorgeDavalos26/AboutMe_Project.git">
+                                Web page's source code 
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

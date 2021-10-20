@@ -274,7 +274,7 @@
                     <p>Desarrollado con Java, MySQL, PHP, C++, Arduino</p>
                     <span>
                         Visita mi proyecto en 
-                        <a href="https://github.com/JorgeDavalos26/AboutMe_Project.git" download="CurriculumVitaeJorgeDavalos" target="_blank">
+                        <a href="https://github.com/JorgeDavalos26/Chessmate_Official.git" target="_blank">
                         Github
                         <img style="margin-left:20px; height:60px; width:60px" src="https://midu.dev/images/tags/github.png" alt="">
                         </a>
@@ -285,7 +285,7 @@
                     <p>Desarrollado con C# y MySQL</p>
                     <span>
                         Visita mi proyecto en 
-                        <a href="https://github.com/JorgeDavalos26/AboutMe_Project.git" download="CurriculumVitaeJorgeDavalos" target="_blank">
+                        <a href="https://github.com/JorgeDavalos26/AplicacionAeropuerto_6toSemestre.git" target="_blank">
                             Github
                             <img style="margin-left:20px; height:60px; width:60px" src="https://midu.dev/images/tags/github.png" alt="">
                         </a>
