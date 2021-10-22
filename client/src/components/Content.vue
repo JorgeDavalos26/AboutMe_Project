@@ -250,15 +250,15 @@
                 <!-- PARA PDFS EN UN SERVIDOR, despues de url= , poner el link completo del pdf
                 <iframe src="https://docs.google.com/viewer?url=https://dspace.ups.edu.ec/bitstream/123456789/14162/1/GT001840.pdf&pid=explorer&efh=false&a=v&chrome=false&embedded=true" style="width:700px; height:700px;" frameborder="0"></iframe>
                 -->
-
+                
                 <!-- PARA PDFS EN UN SERVIDOR DE GOOGLE, despues del srcid= , poner unicamente el ID del link que brinda Drive al pdf ex. 1glBP2JlbTIkuyMcdaC933heArk2sHV6Z -->
-                <iframe src="https://docs.google.com/viewer?srcid=1glBP2JlbTIkuyMcdaC933heArk2sHV6Z&pid=explorer&efh=false&a=v&chrome=false&embedded=true" style="width:900px; height:700px;" frameborder="0">
+                <iframe src="https://docs.google.com/viewer?srcid=1DXXbfquvAWlKLvijTmblM7sN1I6ba6Oj&pid=explorer&efh=false&a=v&chrome=false&embedded=true" style="width:900px; height:700px;" frameborder="0">
                 </iframe>
             </div>
             <div>
                 <!-- En href= , poner completamente el link del pdf que brinda Drive -->
                 <span>Descarga mi 
-                    <a href="https://drive.google.com/file/d/1glBP2JlbTIkuyMcdaC933heArk2sHV6Z/view?usp=sharing" download="CurriculumVitaeJorgeDavalos" target="_blank">
+                    <a href="https://drive.google.com/file/d/1DXXbfquvAWlKLvijTmblM7sN1I6ba6Oj/view?usp=sharing" download="CurriculumVitaeJorgeDavalos" target="_blank">
                     Curriculum Vitae
                     <img style="margin-left:20px; height:60px; width:50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="">
                     </a>
