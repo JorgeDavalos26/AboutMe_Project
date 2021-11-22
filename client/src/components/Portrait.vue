@@ -1,7 +1,7 @@
 <template>
         <div class="portrait">
             <div class="circular-portrait">
-                <img src="../images/Perfil3.jpg" alt="">
+                <img src="../images/Perfil3.jpg" alt="cuspide_de_la_belleza">
             </div>
             <br>
             <h2>Tgo. Jorge Alberto Davalos Sigala</h2>
